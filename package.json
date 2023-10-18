@@ -1,0 +1,33 @@
+{
+  "name": "monnify-sample-webhook-nodejs",
+  "version": "1.0.0",
+  "description": "A sample Express-Nodejs Backend to show how to implement and process Monnify webhooks",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monnify/monnify-sample-webhook-nodejs.git"
+  },
+  "keywords": [
+    "monnify",
+    "webhook",
+    "nodejs",
+    "express"
+  ],
+  "author": "Monnify Integrations Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monnify/monnify-sample-webhook-nodejs/issues"
+  },
+  "homepage": "https://github.com/monnify/monnify-sample-webhook-nodejs#readme",
+  "dependencies": {
+    "@prisma/client": "^5.4.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.2",
+    "prisma": "^5.4.2"
+  }
+}
